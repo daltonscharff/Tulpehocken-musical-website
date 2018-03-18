@@ -1,0 +1,8 @@
+# database
+db/*
+
+# virtual environment
+venv/*
+
+# secret key
+secret_key.py
