@@ -15,10 +15,13 @@
 1. Open *localhost:5000* in your browser to use the app
 
     Alternatively, you can run this after completing step 1. Remember to replace \*python_location\* with the location of the python3 interpreter on your system:
-        pip install virutalenv
-        python-mvirutalenv venv -p *python_location*
-        source venv/bin/activate
-        pip install -r requirements.txt
-        export FLASK_APP=musical.py
-        flask initdb
-        flask run
+
+    ```
+    pip install virutalenv
+    python-mvirutalenv venv -p *python_location*
+    source venv/bin/activate
+    pip install -r requirements.txt
+    export FLASK_APP=musical.py
+    flask initdb
+    flask run
+    ```
