@@ -10,6 +10,7 @@
 1. Run **source venv/bin/activate** to start your virtual environment
 1. Run **pip install -r requirements.txt** to install the python dependencies for this project
 1. Run **export FLASK_APP=musical.py** to set the FLASK_APP variable
+1. Run **python keygen.py** to create the secret key
 1. Run **flask db init** to create the sqlite3 database
 1. Run **flask run** to run the project
 1. Open *localhost:5000* in your browser to use the app
@@ -22,6 +23,7 @@
     source venv/bin/activate
     pip install -r requirements.txt
     export FLASK_APP=musical.py
+    python keygen.py
     flask db init
     flask run
     ```
